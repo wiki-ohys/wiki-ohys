@@ -5,7 +5,7 @@ title: Site Updates
 
 ## .::Site Updates and News::.  
 _March 8, 2022_   
-Hello Visitor, Today I've added two new pages, the [trivia page](trivia/index.html) you can find in the navigation tab on the home page. And, a simple [How-To](howto.html) page has been placed in the bottom navigation menu. [Amaranta Ursula's](../characters/amarantaursula.html) page has been completed good enough. I think. More work to be done. Good day!
+Hello Visitor, Today I've added two new pages, the [trivia page](../pages/trivia/trivia/trivia.md) you can find in the navigation tab on the home page. And, a simple [How-To](howto.html) page has been placed in the bottom navigation menu. [Amaranta Ursula's](../characters/amarantaursula.html) page has been completed good enough. I think. More work to be done. Good day!
 
 _March 5, 2022_   
 Hello Visitor, The site has been added with two pages you see them on the homepage on the right down of the navigation links. They contain a resources page and an image gallery page. These pages will explore further the possibilites of enhancing the knowledge of the book by additional means, like research papers, youtube videos and images. These resources will be immensely helpful to the college students, researchers and professors. More information will be added on regular basis. Thanks!
