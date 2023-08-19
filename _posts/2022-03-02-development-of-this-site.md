@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Development of this site
+Date: 2022-03-02
 ---
-<h1>Development of this site</h1>
-<h5>March 2, 2022</h5>
 <p>One Hundred Years of Solitude is a vast book, every page of this book contains vital details which the reader cannot afford to miss. I finished reading this book in January 2022 and then decided to make a wiki for it.</p>
 <p>As you know from previous blog posts that I am currently studying, thus, I am not working full time on this site. But I will try to add as many details as I could. To make a wiki, this novel would require re-reading time and again. Though I enjoyed this novel and I hope I would read between the lines to get more information out of it, you could always extend you help by contributing and it would be highly appreciated.</p>
 <p>Since this book belongs to the <i>Magical Realism</i> genre, it contains both magic and reality in itself. Throughout this novel we get to see unusually fantastic things happening and also some tangibaly real incidents like massacre of the worker of the <b>Banana Company</b> which resembles to <a href="https://en.wikipedia.org/wiki/Banana_Massacre">Banana Massacre</a> happened in Colombia, 1928.</p>

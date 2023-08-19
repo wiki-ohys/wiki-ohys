@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Wiki : One Hundred Years of Solitude</title>
-<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link href="{{ "/css/style.css" | relative_url }}" rel="stylesheet" type="text/css">
 
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 <style>
@@ -25,36 +25,10 @@
 <hr>
 
 <div class="left">
-  <div>
-    <h4 class="header">LINKS</h4>
-   <ul class="vertical">
-  
-    <li class="links"><a href="{% link pages/about.md %}"><img src="content/bookicon.png" width="15px" alt=""> About the Book</a></li>
-    <li class="links"><a href="{% link pages/author.md %}"><img width="20px" src="content/marquezicon.jpeg" alt=""> About The Author</a></li>
-    <li class="links"><a href="{% link pages/characters.md %}"><img width="15px" src="content/charactersicon.png" alt=""> Characters</a></li>
-    <li class="links"><a href="{% link pages/blogs.md %}"><img width="15px" src="content/quillicon.png" alt=""> Blog Posts</a></li>
-    <li class="links"><a href="{% link pages/updates.md %}"><img width="15px" src="content/updatesicon.png" alt=""> Site Updates</a></li>
-    <li class="links"><a href="pages/helpme.html">Contribute or Report Error</a></li>
-  <li class="links"><a href="pages/howto.html">Licensing & Information</a></li>
-</ul>
-    </div>
-</div>
+ {% include leftnav.html %}
 
 <div class="main">
-  <div class="row">
-    <div class="column">
-      <a href="pages/gallery.html"><img src="content/galleryicon.png" alt="Gallery" style="width: 50px"><p style="font-size:x-small;">Gallery</p></a>
-    </div>
-    <div class="column">
-      <a href="pages/resources.html"><img src="content/resourcesicon.png" alt="Resources" style="width: 50px;"><p style="font-size:x-small;">Resources</p></a>
-    </div>
-    <div class="column">
-     <a href="{% link pages/trivia/trivia.md %}"><img style="width: 50px;" src="content/triviaicon.gif" alt="Trivia"><p style="font-size:x-small;">Trivia!</p></a>
-    </div>
-    <div class="column">
-    </div>
-  </div>
-  
+ 
     <figure>
       <div style="text-align: center;"><img src="../content/cover.jpeg" alt="Book Cover" width="350px">
       <figcaption>Cover Page of the first edition of the book</figcaption></div>

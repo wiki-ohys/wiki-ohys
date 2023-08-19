@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: content
 Title: List of Characters
 ---
 *   [Jose Arcadio Buendia](characters/jabuendia.html)

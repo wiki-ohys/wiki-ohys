@@ -1,11 +1,11 @@
 ---
-layout: default
+layout: content
 title: Resources
 ---
 
 
 ## Resources
-
+---
 
 This page will provide additional materials such as research papers, journal articles, YouTube videos etc, to facilitate further reading. This section of the site will be helpful for academicians, students and professors.
 

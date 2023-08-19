@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Wiki : One Hundred Years of Solitude</title>
+      <link href="{{ "/css/style.css" | relative_url }}" rel="stylesheet" type="text/css">
+      <script async defer src="https://buttons.github.io/buttons.js"></script>
+      <style>
+         * {
+         box-sizing: border-box;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="pageContentWrapper">
+         <h1 style="text-align: center;">Wiki: One Hundred Years of Solitude</h1>
+         {% include navbar.html %}
+         <hr>
+         <div class="left">
+            {% include leftnav.html %}
+         </div>
+         <div class="main">
+            {{ content }}
+         </div>
+         <div class="right"> 
+         </div>
+         <div style="margin: 20px;"></div>
+      </div>
+      </div>
+      {% include footer.html %}
+   </body>
+</html>
