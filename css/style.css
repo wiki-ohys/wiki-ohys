@@ -190,25 +190,10 @@ border: 2px solid rgb(255, 41, 41);
   font-size:medium;
 }
 
-/*container for template of characters homepage characters.html*/
-
-/* for navbar in characters page */
-
-.charnavside {
-  list-style-type: none;
-  margin-left: 5%;
-  padding: 0;
-  width: 250px;
-}
-.charnavlink a {
-  display: block;
-  
-  padding: 5px 16px;
-  
-}
-.charnavlink a:hover {
-  text-shadow: 2px 2px 5px crimson;
-  font-style: italic;
+@media screen and (max-width: 600px) {
+  .charcon {
+    grid-template-columns: 1fr;
+  }
 }
 
 /*------------------------------------------------*/
@@ -241,6 +226,7 @@ border: 2px solid rgb(255, 41, 41);
     width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
   }
 }
+
 .header {
   text-align: center;
 }
