@@ -44,10 +44,22 @@ margin: 50px;
 display:inline-block
 }
 /*---------------------------------------------------------------*/
+/*link in the characters page*/
+.list {
+  list-style-type: none;
 
+}
+.list > li {
+  margin: 7px 0px;
+}
 /*------------icon and text in third column in homepage----------*/
-.align-image {display:flex;}
-.image-column > img {max-width: 19px;}
+.align-image {
+  display: flex;
+}
+
+.image-column>img {
+  max-width: 19px;
+}
 /*---------------------------------------------------------------*/
 
 
@@ -237,7 +249,6 @@ border: 2px solid rgb(255, 41, 41);
         }
 .row {
   display: flex;
-  border-bottom: 1px solid grey; 
   padding: 3px 0px;
   margin-bottom: 6px;
 }

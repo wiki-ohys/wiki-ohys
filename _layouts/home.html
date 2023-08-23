@@ -2,50 +2,51 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Wiki : One Hundred Years of Solitude</title>
-<link href="{{ "/css/style.css" | relative_url }}" rel="stylesheet" type="text/css">
+    <title>Wiki : One Hundred Years of Solitude</title>
+    <link href="{{ "/css/style.css" | relative_url }}" rel="stylesheet" type="text/css">
 
-<script async defer src="https://buttons.github.io/buttons.js"></script>
-<style>
-  * {
-  box-sizing: border-box;
-}
-
-</style>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+    </style>
 
 </head>
 
 <body>
     <div class="pageContentWrapper">
 
-  <h1 style="text-align: center;">Wiki: One Hundred Years of Solitude</h1>
-<hr>
+        <h1 style="text-align: center;">Wiki: One Hundred Years of Solitude</h1>
+        <hr>
 
-<div class="left">
- {% include leftnav.html %}
+        <div class="left">
+            {% include leftnav.html %}
 
-<div class="main">
- 
-    <figure>
-      <div style="text-align: center;"><img src="../content/cover.jpeg" alt="Book Cover" width="350px">
-      <figcaption>Cover Page of the first edition of the book</figcaption></div>
-    </figure>
-</div>
+            <div class="main">
 
-<div class="right"> 
-  {% include news.html %}
-</div>
+                <figure>
+                    <div style="text-align: center;"><img src="../content/cover.jpeg" alt="Book Cover" width="350px">
+                        <figcaption>Cover Page of the first edition of the book</figcaption>
+                    </div>
+                </figure>
+            </div>
+
+            <div class="right">
+                {% include news.html %}
+            </div>
 
 
 
 
-<div style="margin: 20px;"></div>
+            <div style="margin: 20px;"></div>
 
-</div></div>
-{% include footer.html %}
+        </div>
+    </div>
+    {% include footer.html %}
 </body>
 
 </html>

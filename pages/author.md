@@ -13,8 +13,7 @@ title: About the Author - Wiki OHYS
 Gabriel García Márquez was a nobel prize winner colombian novelist and short-story writer. He is considered as the one of the most significant twentieth century writer. He wrote in spanish. His style of writing is known as Magical Realism. Marquez started his career as a journalist and wrote non-fiction works and short-stories.
 
 ### Summary
-
-![Gabriel García Márquez](../content/marquez.jpeg)  
+<img src="{{ "/content/marquez.jpeg" | relative_url }}" style="width: 100%">
 <br>  
 
 |Details|   
