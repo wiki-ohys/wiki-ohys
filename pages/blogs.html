@@ -6,7 +6,7 @@ title: Blog Posts
   {% for post in site.posts %}
     <li style="padding: 7px 0px;">
       <i>{{ post.date | date: "%-d %b %Y" }}</i> <br>
-      <a style=" font-weight: bold; font-size: x-large; text-decoration:none;" href="{{ post.url }}">{{ post.title }}</a>
+      <a style=" font-weight: bold; font-size: large; text-decoration:none;" href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
