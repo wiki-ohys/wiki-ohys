@@ -235,7 +235,13 @@ border: 2px solid rgb(255, 41, 41);
             grid-column: 1 / 5;
         }
 
+
 /* Create three equal columns that sits next to each other */
+.row-leftnav {
+    display: flex;
+    padding: 3px 0px;
+    margin-bottom: 6px;
+}
 .column {
   flex: 33.33%;
   padding: 5px;
