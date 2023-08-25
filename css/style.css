@@ -200,7 +200,7 @@ border: 2px solid rgb(255, 41, 41);
 .summary-image {
   text-align: center;
 }
-
+/*the left main right responsive division of the page*/
 
 .left {
   padding: 20px;
@@ -227,17 +227,14 @@ border: 2px solid rgb(255, 41, 41);
   }
 }
 
+/*---------------------------------------------*/
 .header {
   text-align: center;
 }
 .details {
             grid-column: 1 / 5;
         }
-.row {
-  display: flex;
-  padding: 3px 0px;
-  margin-bottom: 6px;
-}
+
 /* Create three equal columns that sits next to each other */
 .column {
   flex: 33.33%;
