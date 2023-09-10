@@ -1,13 +1,11 @@
 ---
 layout: content
-Title: List of Characters
+title: List of Characters
 ---
 <strong>First Generation</strong>
 <ul class="list">
     <li><a href="characters/jabuendia.html">Jose Arcadio Buendia</a></li>
     <li><a href="characters/ursula.html">Ursula Iguaran</a></li>
-    <li><a href="characters/prudencio.html">Prudencio Aguilar</a></li>
-    <li><a href="characters/melquiades.html">Melquiades</a></li>
 </ul>
 <strong>Second Generation</strong>
 
@@ -19,7 +17,6 @@ Title: List of Characters
 <li><a href="characters/pilartarnera.html">Pilar Tarnera</a></li>
 <li><a href="characters/rebeca.html">Rebeca</a></li>
 <li><a href="characters/crespi.html">Pietro Crespi</a></li>
-<li><a href="characters/gerinaldo.html">Gerinaldo Marquez</a></li>
 </ul>
 <strong>Third Generation</strong>
 <ul class="list">
@@ -54,4 +51,10 @@ Title: List of Characters
 <strong>Seventh Generation</strong>
 <ul class="list">
 <li><a href="characters/aureliano.html">Aureliano</a></li>
+</ul>
+<strong>Other Characters</strong>
+<ul class="list">
+    <li><a href="characters/prudencio.html">Prudencio Aguilar</a></li>
+    <li><a href="characters/melquiades.html">Melquiades</a></li>
+    <li><a href="characters/gerinaldo.html">Gerinaldo Marquez</a></li>
 </ul>

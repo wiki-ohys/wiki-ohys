@@ -3,7 +3,7 @@
    <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Wiki : One Hundred Years of Solitude</title>
+      <title>{{ page.title }} - Wiki-OHYS</title>
       <script async defer src="https://buttons.github.io/buttons.js"></script>
 <style>
 * {
@@ -21,6 +21,7 @@ box-sizing: border-box;
   float: left;
   width: 60%; /* The width is 60%, by default */
   min-width: 50%;
+  margin-bottom: 10px;
 }
 
 .right {
@@ -79,9 +80,8 @@ border: 2px solid rgb(255, 41, 41);
       </style>
    </head>
    <body>
-      <div class="pageContentWrapper"><br>
-         <h1 style="text-align: center;">Wiki: One Hundred Years of Solitude</h1>
-         {% include navbar.html %}
+    {% include banner.html %}
+    {% include navbar.html %}
          <hr>
          <div class="left">
          </div>
@@ -90,7 +90,6 @@ border: 2px solid rgb(255, 41, 41);
          </div>
          <div class="right"> 
          </div>
-      </div>
-      {% include footer.html %}
+   
    </body>
 </html>
