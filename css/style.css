@@ -60,6 +60,9 @@ display:inline-block
 .image-column>img {
   max-width: 19px;
 }
+.text-column {
+padding-left: 5px;
+}
 /*---------------------------------------------------------------*/
 
 
