@@ -8,7 +8,6 @@ html,
 body {
   margin: 0;
   padding: 0;
-  max-width: 100%;
 }
 .charbody {
   width: 90%;
@@ -168,6 +167,7 @@ width: 100%;
   border-radius: 4px;
 background-color: rgb(242, 163, 200);
 border: 2px solid rgb(255, 41, 41);
+max-width: fit-content;
 }
 .summary-box > h4 {
   text-align: center;
@@ -205,7 +205,7 @@ border: 2px solid rgb(255, 41, 41);
   padding: 20px;
   float: left;
   width: 60%; /* The width is 60%, by default */
-}
+margin-top: 0px;}
 
 .right {
   padding: 20px;
