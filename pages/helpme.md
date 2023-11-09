@@ -16,9 +16,6 @@ If you want to add or amend some part of the website you can make pull requests 
 
 If you want to contribute alternatively by directly contacting me, you can do that also. You can <a href="https://twisthead.github.io/contact" target="_blank">Contact Me</a> I'll be glad to merge your contribution and also you'll be credited for your contribution in this site.
 
-#### Help me financially
-
-You can help me by funding me. As it might be into your knowledge that I am currently studying and I have zero income whatsoever and this site is being developed in my personal low-powered laptop. I am working with a single monitor with low resolution (it is hard to work on low resolution monitors :D), if I get an extra monitor, the work would be a lot easier for me. So, if you can afford you can always patron this site and show your love to literature.
 
 #### Links
 
