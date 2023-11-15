@@ -12,7 +12,21 @@
   {% include banner.html %}
     {% include navbar.html %}
   <hr>
-<div class="gallery">
+{{ content }}
+  <!-- {% assign images = site.static_files.find_all.where(:type, "image") %}
+
+  {% for image in images %}
+    <img src="{{ image.url }}" alt="{{ image.basename }}">
+  {% endfor %} -->
+
+  <!-- {% assign images = site.static_files.find_all.where(:path, "/content") %}
+
+{% for image in images %}
+  <img src="{{ image.url }}" alt="{{ image.basename }}">
+{% endfor %} -->
+
+
+<!-- <div class="gallery">
     <figure class="gallery-item">
         <img src="../content/amaranta_ursula.jpg" alt="Description of Image 1">
         <figcaption>Caption for Image 1</figcaption>
@@ -27,20 +41,19 @@
       <img src="../content/cover.jpeg" alt="Description of Image 2">
       <figcaption>Caption for Image 2</figcaption>
   </figure>
-  
+
   <figure class="gallery-item">
     <img src="../content/jabuendiatied.jpeg" alt="Description of Image 2">
     <figcaption>Caption for Image 2</figcaption>
 </figure>
-  
+
 <figure class="gallery-item">
   <img src="../content/ursula-jab.jpeg" alt="Description of Image 2">
   <figcaption>Caption for Image 2</figcaption>
 </figure>
 
-    <!-- ... add more images as needed ... -->
-    
-</div>
+
+</div> -->
 
 </body>
 </html>
