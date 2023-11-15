@@ -236,7 +236,7 @@ margin-top: 0px;}
     margin-bottom: 6px;
 }
 .column {
-  flex: 33.33%;
+text-align: center;
   padding: 5px;
 }
 .column > img:hover {
