@@ -260,4 +260,16 @@ margin-top: 0px;}
 }
 
 
-/* this is the responsive box model for the charac */
+/*styling for centered div in character layout */
+.centered-content {  
+    width: 50%;
+    margin: 0 auto;
+  
+  }
+  
+  @media (max-width: 800px) {
+.centered-content {
+        width: auto;
+        padding: 15px
+    }
+  }
