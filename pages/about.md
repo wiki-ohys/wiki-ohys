@@ -3,7 +3,7 @@ layout: content
 title: About the book
 ---
 # About the book
-***
+---
 ### Introduction
 
 The book was published in 1967 in spanish by Colombian novelist Gabriel García Márquez originally titled "Cien años de soledad". Novel was published in English in 1970 by Harper & Row.
@@ -19,7 +19,7 @@ The themes and symbols in One Hundred Years of Solitude are complex and intercon
 * **Solitude.** The novel explores the theme of solitude in many ways. The characters are often isolated from each other, both physically and emotionally. They are also isolated from the outside world, which is represented by the impenetrable jungle. The theme of solitude is represented by symbols such as the rain of fire, the colonel's gold fishes, and the patriarch's suicide.
 * **The corrupting influence of progress.** The novel suggests that progress can be a destructive force. The arrival of the banana company in Macondo brings economic prosperity, but it also brings violence, exploitation, and environmental destruction. The theme of the corrupting influence of progress is represented by symbols such as the banana company, the massacre of the workers, and the desecration of the Buendía family cemetery.
 * **The power of myth and legend.** The novel is full of myths and legends, which are often used to explain the events that take place. These myths and legends reflect the characters' attempts to make sense of the world around them. The theme of the power of myth and legend is represented by symbols such as the gypsies, the prophecy of Melquíades, and the Buendía family curse.
-* **The importance of family.** Despite the many conflicts and tragedies that befall them, the Buendía family remains strong and united. The family is a source of strength and support for the characters, and it helps them to survive the challenges they face. The theme of the importance of family is represented by symbols such as the patriarch's curse, the Buendía family tree, and the incestuous relationships.
+- **The importance of family.** Despite the many conflicts and tragedies that befall them, the Buendía family remains strong and united. The family is a source of strength and support for the characters, and it helps them to survive the challenges they face. The theme of the importance of family is represented by symbols such as the patriarch's curse, the Buendía family tree, and the incestuous relationships.
 
 ### Writing Style
 The writing style of One Hundred Years of Solitude is characterized by its use of magical realism. Magical realism is a literary style that blends elements of realism with fantasy or the supernatural. In One Hundred Years of Solitude, García Márquez uses magical realism to create a world that is both believable and strange.
@@ -47,7 +47,7 @@ The novel received international acclaim, winning literary prizes across the wor
 - Venezuela's Rómulo Gallegos Prize
 - Books Abroad / Neustadt International Prize for Literature.  
 
-> And was also key factor in winning Gabriel Garcia Marquez a Nobel Prize in 1982
+_And was also key factor in winning Gabriel Garcia Marquez a Nobel Prize in 1982._
 
 ### Resources
 [See this page]({% link pages/resources.md %})
