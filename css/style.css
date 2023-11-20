@@ -110,6 +110,19 @@ width: 100%;
     flex-direction: column;
   }
 }
+
+/* Create three equal columns that sits next to each other */
+.row-leftnav {
+  display: flex;
+  margin: 20px 0px;
+}
+.column {
+text-align: center;
+padding: 5px;
+flex: 25%;
+}
+/*-------------------------------------------------*/
+
 /*--------------------------------------*/
 
 .aligncenter {
@@ -202,21 +215,7 @@ margin-top: 0px;}
     font-style: italic;
 }
 
-/* Create three equal columns that sits next to each other */
-.row-leftnav {
-    display: flex;
-    padding: 3px 0px;
-    margin-bottom: 6px;
-}
-.column {
-  text-align: center;
-  padding: 5px;
-  flex: 33.33%;
-}
-.column > img:hover {
-  width: 56px;
-}
-/*-------------------------------------------------*/
+
 
 
 .flex-item {
