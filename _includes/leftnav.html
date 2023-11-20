@@ -1,44 +1,39 @@
 <div>
-    <h4 class="header">LINKS</h4>
-   <ul class="vertical">
+    <!-- <h4 class="header">LINKS</h4> -->
+   <div class="vertical">
   
-    <li class="links">
+    <div class="links">
       <a href="{% link pages/about.md %}">
-        <img src="{{ "/content/bookicon.png" | relative_url }}" width="15px" alt=""> About the Book</a>
-      </li>
-
-    <li class="links">
+         About the Book</a>
+      </div>
+    <div class="links">
       <a href="{% link pages/author.md %}">
-        <img width="20px" src="{{ "/content/marquezicon.jpeg" | relative_url }}" alt=""> About The Author</a>
-      </li>
+        About The Author</a>
+      </div>
 
-    <li class="links">
+    <div class="links">
       <a href="{% link pages/characters.md %}">
-        <img width="15px" src="{{ "/content/charactersicon.png" | relative_url }}" alt=""> Characters</a>
-      </li>
+        Characters</a>
+      </div>
 
-    <li class="links">
-      <a href="{% link pages/blogs.html %}">
-        <img width="15px" src="{{ "/content/quillicon.png" | relative_url }}" alt=""> Blog Posts</a>
-      </li>
+    <div class="links"><a href="{% link pages/blogs.html %}">Blog Posts</a>
+      </div>
 
-    <li class="links">
+    <div class="links">
       <a href="{% link pages/updates.md %}">
-        <img width="15px" src="{{ "/content/updatesicon.png" | relative_url }}" alt=""> Site Updates</a>
-      </li>
+        Site Updates</a>
+      </div>
 
-    <li class="links">
+    <div class="links">
       <a href="{% link pages/helpme.md %}">
-        <img src="{{ "/assets/gifs/cdrom.gif" | relative_url }}" alt="" style="width: 15px;"> Contribute or Report Error</a>
-    </li>
-
-  <li class="links">
-    <a href="{% link pages/howto.md %}">Licensing & Information</a>
-  </li>
-
-  
-</ul>
+        Contribute</a>
     </div>
+
+  <div class="links">
+    <a href="{% link pages/howto.md %}">Licensing & Information</a>
+  </div>
+</div>
+</div>
 
 
     <div class="row-leftnav">
@@ -69,3 +64,7 @@
     </div>
     
 </div>
+
+
+<!-- <img src="{{ "/content/bookicon.png" | relative_url }}" width="15px" alt=""> 
+<img width="20px" src="{{ "/content/marquezicon.jpeg" | relative_url }}" alt=""> <img width="15px" src="{{ "/content/charactersicon.png" | relative_url }}" alt=""> <img width="15px" src="{{ "/content/quillicon.png" | relative_url }}" alt=""> <img width="15px" src="{{ "/content/updatesicon.png" | relative_url }}" alt=""> <img src="{{ "/assets/gifs/cdrom.gif" | relative_url }}" alt="" style="width: 15px;"> -->

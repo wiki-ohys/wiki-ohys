@@ -31,7 +31,7 @@ title: List of Characters
 <li><a href="characters/josearcadiosegundo.html">Jose Arcadio Sengundo</a></li>
 <li><a href="characters/remediosbeauty.html">Remedios the Beauty</a></li>
 <li><a href="characters/fernanda.html">Fernanda del Carpio</a></li>
-<li><a href="characters/petracotes.html">Petro Cotes</a></li>
+<li><a href="characters/petracotes.html">Petra Cotes</a></li>
 </ul>
 
 <strong>Fifth Generation</strong>
