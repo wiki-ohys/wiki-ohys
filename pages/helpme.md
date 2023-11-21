@@ -2,7 +2,7 @@
 layout: content
 title: Help Me
 ---
-## -= Ways you can help =-
+## -= How you can help! =-
 ***
 
 #### Start an issue on GitHub
