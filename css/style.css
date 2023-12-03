@@ -166,7 +166,7 @@ max-width: fit-content;
 /*the left main right responsive division of the page*/
 
 .left {
-  padding: 0px 20px;
+  /* padding: 0px 20px; */
   float: left;
   width: 20%; /* The width is 20%, by default */
 }
