@@ -9,10 +9,11 @@ title: License and Info
 ---
 ### License
 
- <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/" style="font-family: mono;"><a property="dct:title" rel="cc:attributionURL" href="https://wiki-ohys.github.io/">Wiki: One Hundred Years of Solitude</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://twisthead.github.io/">Najm Us Saqib</a> is licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
+ <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://wiki-ohys.github.io/">Wiki: One Hundred Years of Solitude</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://twisthead.github.io/">Najm Us Saqib</a> is licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
 ---
-<div style="margin-top:20px; padding: 3px 5px; box-shadow: 0 0 10px 5px #5EFCE8; font-family: mono;"><strong>Motivation</strong><br><p>This site is my dedication to the greatest novel written in the twentieth century. I wanted to do something related to it which would remind me of this masterpiece every now and then.<br>It will always be a work in progress. I will continuously work on it up until I can.</p> 
-<strong>Target</strong>
+<div style="margin-top:20px; padding: 5px 10px; box-shadow: 0 0 10px 5px #5EFCE8; font-family: monospace;"><strong>Motivation</strong><br>
+<p>This site is my tribute to the greatest novel written in the twentieth century. I wanted to do something which will honour this legendary work and would be a fond memory to relish in the days to come.<br>It will always be a work in progress. I will continuously work on it up until I can.</p> 
+<strong>Vision</strong>
 <p>My dream is to make this site so comprehensive that even the minutest details from book find its appropriate place somewhere in the website.</p></div>
 
 
@@ -32,4 +33,4 @@ title: License and Info
 
   <br>
 
-![free](https://web.archive.org/web/20091026061207/http://geocities.com/Hollywood/Derby/2683/freebutton14.gif) ![linux](https://web.archive.org/web/20090901195531/http://geocities.com/linuxhelppage/LinuxNow.gif) <img src="http://machopowerwagon.com/MachoPowerWagon_files/linuxpowered.jpg" width="60em" style="margin: 0px 7px">
+![free](https://web.archive.org/web/20091026061207/http://geocities.com/Hollywood/Derby/2683/freebutton14.gif) ![linux](https://web.archive.org/web/20090901195531/http://geocities.com/linuxhelppage/LinuxNow.gif) <img src="/assets/gifs/linuxpowered.jpg" width="60em" style="margin: 0px 7px">

@@ -1,42 +1,21 @@
 --- 
-layout: character
+layout: content
 title: Trivia in OHYS
 ---
-   <center> <h1>{{ page.title }}</h1></center>
-<div class="gc">
 
-    <div class="gi">
-      <strong>Macondo Trivia</strong>
-      <p>The legendary village of Macondo. Ofcourse it has trivias.</p>
-      <a href="{% link pages/trivia/trivia-pages/macondo.md %}"><div class="btn">View</div></a>
-   </div>
+<center><h1>&#10057; Trivia    &#10057;</h1></center>
+    <div class="gc">
 
-   <div class="gi">
-      <strong>Buendia Family Trivia</strong>
-      <p>This section lists the trivia from the Buendia Family.</p>
-      <a href="{% link pages/trivia/trivia-pages/macondo.md %}"><div class="btn">View</div></a>
-   </div>
+  {% for page in site.pages %}
+    {% if page.path contains '/trivia-pages/' %}
+    	<div class="gi">
+    		<h3>{{ page.title }}</h3>
    
-    <div class="gi">
-      <strong>Wives in OHYS</strong>
-      <p>Numerous wives of macondo has numerous trivias.</p>
-      <a href="{% link pages/trivia/trivia-pages/macondo.md %}"><div class="btn">View</div></a>
-   </div> 
-    <div class="gi">
-      <strong>Death Trivia</strong>
-      <p>Let's get pedantic with all the deaths in the book. Jaw-dropping details of the deaths from the book.</p>
-      <a href="{% link pages/trivia/trivia-pages/macondo.md %}"><div class="btn">View</div></a>
+    		<p>{{ page.description }}</p>
+      <a href="{{ site.baseurl }}{{ page.url }}"><div class="btn">View</div></a>
       </div>
-      <div class="gi">
-         <strong>Aureliano's trivia</strong>
-         <p>Buendia family has lot's of Aureliano's and each one of them have details we should know.</p>
-         <a href="{% link pages/trivia/trivia-pages/macondo.md %}"><div class="btn">View</div></a>
+    {% endif %}
+  {% endfor %}
+
       </div>
-      <div class="gi">
-         <strong>Arcadio's trivia</strong>
-         <p>
-            All small details of all the Arcadio's of the Buendia Family.</p>
-         <a href="{% link pages/trivia/trivia-pages/macondo.md %}"><div class="btn">View</div></a>
-      </div>
-   
-</div>
+      <br><br>

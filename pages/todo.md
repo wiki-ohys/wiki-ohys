@@ -3,7 +3,9 @@ layout: content
 title: Todo of the Wiki
 ---
 ## Todo of the Wiki
+
 ---
+
 - [x] Responsive
 - [x] Layout
 - [x] Blog
@@ -11,3 +13,5 @@ title: Todo of the Wiki
 - [x] About the Book Page
 - [ ] Trivia
 - [ ] Characters Page
+- [ ] Gallery Page
+- [ ] Responsive homepage grid

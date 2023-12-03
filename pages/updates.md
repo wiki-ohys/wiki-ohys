@@ -1,25 +1,38 @@
 --- 
 layout: content 
-title: Site Updates
+title: Site Updates and News
 ---
+<center><h2>.:: Site Updates and News ::.</h2></center>
 
-## .::Site Updates and News::.  
 ***
-_August 19, 2023_  
-<br>
+**_December 3, 2023_**
+
+Writing update after a long time even though the wiki saw some changes here and there in the meanwhile. But this is just to put in record that lot's of significant changes has been done in this commit. 
+1. Proper template for Trivia pages
+2. Responsive pages for characters
+3. Automation of numerous pages (though this change is not visually noticeable this change but I have modified some code so that pages automatically generate. Reducing significant recursive tasks.)
+4. Worked on navbar.
+
+Slowly we are moving to a perfect wiki site, where the only remaining task would be to just fill in details which I am more excited about. But designing the website itself is very entertainign and informative.
+
+That's all for today, see you. 
+
+
+**_August 19, 2023_**
+
 Hello Visitor, Since my previous update on the site, I have corrected multiple pages which were broken until now. The homepage is almost complete. Another notable improvement is that, the site has a layout now, and the contents are shown in the set layout. not like previous site where pages have been randomly places and links. However, in the beginning I had something different in mind, like making a site like it is in the 90s, but that is very tiring and confusing.  
 I hope to make the characters page fit the layout now, that is another tedious task yet pending, but that is in next in the todo of the site. More updates soon. 
 
-_August 13, 2023_  
-<br>
+**_August 13, 2023_**
+
 I have started reworking on the site. Read the [details here]({% link _posts/2023-08-13-rebuilding-of-the-site.md %})
 
-_March 8, 2022_   
-<br>
+**_March 8, 2022_**
+
 Hello Visitor, Today I've added two new pages, the [trivia page](../pages/trivia/trivia/trivia.md) you can find in the navigation tab on the home page. And, a simple [How-To](howto.html) page has been placed in the bottom navigation menu. [Amaranta Ursula's](../characters/amarantaursula.html) page has been completed good enough. I think. More work to be done. Good day!
 
-_March 5, 2022_   
-<br>
+**_March 5, 2022_**
+
 Hello Visitor, The site has been added with two pages you see them on the homepage on the right down of the navigation links. They contain a resources page and an image gallery page. These pages will explore further the possibilites of enhancing the knowledge of the book by additional means, like research papers, youtube videos and images. These resources will be immensely helpful to the college students, researchers and professors. More information will be added on regular basis. Thanks!
 
 _March 02, 2022_  

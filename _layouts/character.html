@@ -10,10 +10,12 @@
    
    <body class="character">
     {% include banner.html %}
-    {% include navbar.html %}
-         <hr>
-         <div class="centered-content">
+    <div class="char-grid">
+<div class="char-left">{% include leftnav.html %}</div>
+      <div class="char-right">
             {{ content }}
-         </div>
+      </div>
+    </div>
+
    </body>
 </html>

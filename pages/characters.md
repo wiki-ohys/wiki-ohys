@@ -1,60 +1,84 @@
 ---
-layout: content
+layout: character
 title: List of Characters
 ---
+<mark>** The list is incomplete and deails may be missing from character pages.</mark>
+
 <strong>First Generation</strong>
+
 <ul class="list">
-    <li><a href="characters/jabuendia.html">Jose Arcadio Buendia</a></li>
-    <li><a href="characters/ursula.html">Ursula Iguaran</a></li>
+  {% for page in site.pages %}
+    {% if page.path contains '/characters/first' %}
+      <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+    {% endif %}
+  {% endfor %}
 </ul>
+
+
 <strong>Second Generation</strong>
 
 <ul class="list">
-<li><a href="characters/colbuendia.html">Colonel Aureliano Buendia</a></li>
-<li><a href="characters/josearcadio1.html">Jose Arcadio I</a></li>
-<li><a href="characters/amaranta.html">Amaranta</a></li>
-<li><a href="characters/remedios.html">Remedios Mascote</a></li>
-<li><a href="characters/pilartarnera.html">Pilar Tarnera</a></li>
-<li><a href="characters/rebeca.html">Rebeca</a></li>
-<li><a href="characters/crespi.html">Pietro Crespi</a></li>
+  {% for page in site.pages %}
+    {% if page.path contains '/characters/second' %}
+      <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+    {% endif %}
+  {% endfor %}
 </ul>
+
 <strong>Third Generation</strong>
 <ul class="list">
-<li><a href="characters/aurelianojose.html">Aureliano Jose</a></li>
-<li><a href="characters/arcadio.html">Arcadio</a></li>
-<li><a href="characters/17aurelianos.html">17 Aurelianos</a></li>
-<li><a href="characters/santasofia.html">Santa Sofia de la Piedad</a></li>
+  {% for page in site.pages %}
+    {% if page.path contains '/characters/third' %}
+      <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+    {% endif %}
+  {% endfor %}
 </ul>
 <strong>Fourth Generation</strong>
 <ul class="list">
-<li><a href="characters/aurelianosegundo.html">Aureliano Segundo</a></li>
-<li><a href="characters/josearcadiosegundo.html">Jose Arcadio Sengundo</a></li>
-<li><a href="characters/remediosbeauty.html">Remedios the Beauty</a></li>
-<li><a href="characters/fernanda.html">Fernanda del Carpio</a></li>
-<li><a href="characters/petracotes.html">Petra Cotes</a></li>
+  {% for page in site.pages %}
+    {% if page.path contains '/characters/fourth' %}
+      <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+    {% endif %}
+  {% endfor %}
 </ul>
 
 <strong>Fifth Generation</strong>
 <ul class="list">
-<li><a href="characters/josearacatio2.html">Jose Arcadio II</a></li>
-<li><a href="characters/renataremedios.html">Renata Remedios (Meme)</a></li>
-<li><a href="characters/amarantaursula.html">Amaranta Ursula</a></li>
-<li><a href="characters/mauricio.html">Mauricio Babilonia</a></li>
-<li><a href="characters/gaston.html">Gaston</a></li>
+  {% for page in site.pages %}
+    {% if page.path contains '/characters/fifth' %}
+      <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+    {% endif %}
+  {% endfor %}
 </ul>
 <strong>Sixth Generation</strong>
 
 <ul class="list">
-<li><a href="characters/aurelianobabilonia.html">Aureliano Babilonia</a></li>
+  {% for page in site.pages %}
+    {% if page.path contains '/characters/sixth' %}
+      <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+    {% endif %}
+  {% endfor %}
 </ul>
 
 <strong>Seventh Generation</strong>
 <ul class="list">
-<li><a href="characters/aureliano.html">Aureliano</a></li>
-</ul>
+  {% for page in site.pages %}
+    {% if page.path contains '/characters/seventh' %}
+      <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+    {% endif %}
+  {% endfor %}</ul>
+
 <strong>Other Characters</strong>
 <ul class="list">
-    <li><a href="characters/prudencio.html">Prudencio Aguilar</a></li>
-    <li><a href="characters/melquiades.html">Melquiades</a></li>
-    <li><a href="characters/gerinaldo.html">Gerinaldo Marquez</a></li>
+  {% for page in site.pages %}
+    {% if page.path contains '/characters/misc' %}
+      <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+    {% endif %}
+  {% endfor %}
 </ul>
+---
+## Family Tree
+<!-- <figure> -->
+<img src="/assets/chars.png" width="90%">
+<figcaption><a href="/assets/chars.png">Enlarge Image</a></figcaption>
+<!-- </figure> -->
