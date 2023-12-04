@@ -19,8 +19,6 @@ Slowly we are moving to a perfect wiki site, where the only remaining task would
 That's all for today, see you. 
 
 <div class="updates-date-heading">August 19, 2023</div>
-
-
 Hello Visitor, Since my previous update on the site, I have corrected multiple pages which were broken until now. The homepage is almost complete. Another notable improvement is that, the site has a layout now, and the contents are shown in the set layout. not like previous site where pages have been randomly places and links. However, in the beginning I had something different in mind, like making a site like it is in the 90s, but that is very tiring and confusing.  
 I hope to make the characters page fit the layout now, that is another tedious task yet pending, but that is in next in the todo of the site. More updates soon. 
 
@@ -30,7 +28,7 @@ I have started reworking on the site. Read the [details here]({% link _posts/202
 
 <div class="updates-date-heading">March 8, 2022</div>
 
-Hello Visitor, Today I've added two new pages, the [trivia page](../pages/trivia/trivia/trivia.md) you can find in the navigation tab on the home page. And, a simple [How-To](howto.html) page has been placed in the bottom navigation menu. [Amaranta Ursula's]({{ "/amarantaursula/" | "relative_url"}}) page has been completed good enough. I think. More work to be done. Good day!
+Hello Visitor, Today I've added two new pages, the [trivia page](../pages/trivia/trivia/trivia.md) you can find in the navigation tab on the home page. And, a simple [How-To](howto.html) page has been placed in the bottom navigation menu. [Amaranta Ursula's]({% link pages/characters/fifth/amarantaursula.html %}) page has been completed good enough. I think. More work to be done. Good day!
 
 
 <div class="updates-date-heading">March 5, 2022</div>
@@ -42,7 +40,7 @@ Hello Visitor, The update is that I've made a page for every character, though t
 
 <div class="updates-date-heading">Feb 12, 2022</div>
 
-Hi dear reader, Today I've successfully made the template for the character page of this site. Which looks like [this]({{ "/jabuendia/" | "relative_url" }}). Also I've done some minor improvments.
+Hi dear reader, Today I've successfully made the template for the character page of this site. Which looks like [this]({% link pages/characters/first/jabuendia.html %}). Also I've done some minor improvments.
 
 <div class="updates-date-heading">Feb 09, 2022</div>
 
