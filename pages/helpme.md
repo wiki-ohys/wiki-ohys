@@ -2,7 +2,7 @@
 layout: content
 title: Help Me
 ---
-## -= How you can help! =-
+## -= Want to give a hand? =-
 ***
 
 #### Start an issue on GitHub
@@ -19,6 +19,7 @@ If you want to contribute alternatively by directly contacting me, you can do th
 
 #### Links
 
-<a href="https://github.com/wiki-ohys/wiki-ohys.github.io" target="_blank">Link to GitHub Repo</a> |  <a href="https://twisthead.github.io/contact" target="_blank">Contact Me</a>
+- <a href="https://github.com/wiki-ohys/wiki-ohys.github.io" target="_blank">Link to GitHub Repo</a>
+- <a href="https://twisthead.github.io/contact" target="_blank">Contact Me</a>
   
 _Note : If you decide to contribute and your contribution makes it to the site, you will be duly credited._

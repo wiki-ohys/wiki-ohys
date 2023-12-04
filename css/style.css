@@ -260,22 +260,30 @@ margin-top: 0px;}
   font-family: Arial, Helvetica, sans-serif
 }
 .gi {
-  background-color: #45474B;
-  color: #F5F7F8;
-  border: 1px solid #495E57;
+  background-color: #FCE09B;
   border-radius: 7px;
-  padding: 10px;
+  /* padding: 10px; */
   text-align: center
+}
+.gi>h3 {
+  color: #186F65;
+margin: 0;
+padding: 0.5em;
+border-bottom: 1px solid #186F65;
+}
+.gi>p {
+  color: #B2533E;
+  margin: 1em;
 }
 .gi a {
   text-decoration: none;
 }
 .btn {
-  background-color: #F4CE14;
+  background-color: #B2533E;
   width: 40px;
   border-radius: 7px;
   text-align: center;
-  color: #45474B;
+  color: #fff;
   padding: 7px 15px;
   margin: 10px auto;
 }
@@ -283,16 +291,6 @@ margin-top: 0px;}
   .gc {
     grid-template-columns: none;
     }
-}
-
-/* charcter page background */
-.character-page-background {
-  background-image: url("/assets/chars.png");
-background-repeat: no-repeat;
-background-position: top;
-background-color: rgba(255,255,255,0.6);
-background-blend-mode: lighten;
-background-size: contain;
 }
 
 /* grid for character page */
@@ -315,4 +313,15 @@ background-size: contain;
   .char-grid {
     grid-template-columns: none;
     }
+}
+/* .char-right {
+  margin-top: 0px;
+} */
+.updates-date-heading {
+background-color: #FFC93C;
+color: #31326F;
+padding: 5px;
+font-weight: bold;
+font-style: italic;
+margin-top: 20px;
 }
