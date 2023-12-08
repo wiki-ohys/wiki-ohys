@@ -2,11 +2,8 @@
 layout: content
 title: About the Author - Wiki OHYS
 ---
-
-
 ## Gabriel García Márquez
-
-* * *
+---
 
 ### Bio -
 
@@ -24,7 +21,7 @@ Gabriel García Márquez was a nobel prize winner colombian novelist and short-s
 |Father|:| Gabriel Eligio García|
 |Mother|:| Luisa Santiaga Márquez Iguarán|
 |Spouse|:| Mercedes Barcha|
- 
+
 
 ### Works
 

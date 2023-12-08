@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The enduring mysteries of OHYS
+author: Saqib
 date: 2023-08-25
 ---
 ### The Book
@@ -11,7 +12,7 @@ The mysteries that Marquez has incorporated into the novel in unending. There ar
 
 Only of my favourite mysteries in the novel is seventeen sons of Colonel Aureliano Buendia. While in the war, Colonel Aureliano Buendia slept with seventeen different women and impregnated all of them. And miraculously all of them gave birth to Colonel Aureliano Buendia's son. They came to Buendia house in Macondo one by one and Ursuala baptized all of them with same name Aureliano. Now the fact worth noticing is the manner of their death. One of the fascinating things about the Buendia Family is that it repeats itself every generation. So, the seventeen Aurelianos get shot down in alike manner, in the middle of their forehead.  
 
-That brings us to the next section of the blog that is inner-references which is another feature of Marques' production. 
+That brings us to the next section of the blog that is inner-references which is another feature of Marques' production.
 
 ### Inner-references
 The novel unto itself has numerous references at various points of family saga breaking the time and place barriers. The begging chapters are referring to something that is going to occur in the middle of the novel and the ending chapters are referring to something in the beginning of the novel. In this series one incident that is referred to time and again and sure is an important part of the novel is the Colonel Aureliano Buendia facing the firing squad. The novel opens with the same incident when Colonel Aureliano is facing the firing squad and he remembers his father Jose Arcadio Buendia in the afternoon when he discovered ice.  

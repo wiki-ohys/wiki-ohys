@@ -20,25 +20,24 @@
 </head>
 
 <body>
+
 {% include banner.html %}
-
-    </div>
-        <div class="left">
-            {% include leftnav.html %}
+<div class="homepage-grid">
+  <div class="left">
+    {% include leftnav.html %}
+  </div>
+  <div class="main">
+    <img src="../content/cover.jpeg" alt="Book Cover" class="homepage-cover-image">
+    <p>Cover Page of the first English edition of the book</p>
+  </div>
+<div class="right">
+    {% include news.html %}
 </div>
-            <div class="main">
-
-                <figure>
-                    <div style="text-align: center;"><img src="../content/cover.jpeg" alt="Book Cover" width="350px">
-                        <figcaption>Cover Page of the first English edition of the book</figcaption>
-                    </div>
-                </figure>
-            </div>
-
-            <div class="right">
-                {% include news.html %}
-            </div>
-            
+<div class="homepage-footer">
+  <hr width="70%">
+  Created by <a target="_blank" href="https://twisthead.github.io/">Najm Us Saqib</a>
+</div>
+</div>
     {% include footer.html %}
 </body>
 

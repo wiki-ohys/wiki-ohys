@@ -1,8 +1,8 @@
---- 
-layout: content
-title: Todo of the Wiki
 ---
-## Todo of the Wiki
+layout: content
+title: To-do of the Wiki
+---
+## {{ page.title }}
 
 ---
 
@@ -14,4 +14,4 @@ title: Todo of the Wiki
 - [ ] Trivia
 - [ ] Characters Page
 - [ ] Gallery Page
-- [ ] Responsive homepage grid
+- [x] Responsive homepage grid

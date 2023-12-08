@@ -1,7 +1,7 @@
 <div>
     <div class="align-image">
        <div class="image-column"><img src="content/calendericon.png" alt="CalIcon"></div>
-       <div class="text-column"><font size="-1">Last Updated: {{ "now" | date: "%Y-%m-%d" }}</font></div>
+       <div class="text-column">Last Updated: {{ "now" | date: "%Y-%m-%d" }}</div>
     </div>
     <hr>
       <a href="{% link pages/updates.md %}">Site Updates</a> <span><img src="/assets/gifs/new.gif" alt=""></span>
@@ -19,4 +19,7 @@
     <p>
        Please note that I am working on this site in my free time and as a hobby project so I might not write much. If you want to help please <a href="{% link pages/helpme.md %}">see this page</a> or <a href="https://twisthead.github.io/contact" target="_blank">contact me</a>.
     </p>
+    <hr>
+    {% include feed.html %}
+
  </div>

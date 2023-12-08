@@ -2,7 +2,7 @@
 layout: content
 title: Blog Posts
 ---
-<h1 style="text-align: center; margin-top: 0px;">Blogs <img src="/content/karenpen.gif" alt=""></h1>
+<h2 style="text-align: center; margin-top: 0px;">Blogs <img src="/content/karenpen.gif" alt="" width="60px"></h2>
 <hr>
 <ul style="list-style: none;">
   {% for post in site.posts %}
@@ -12,3 +12,6 @@ title: Blog Posts
     </li>
   {% endfor %}
 </ul>
+
+<hr>
+{% include feed.html %}

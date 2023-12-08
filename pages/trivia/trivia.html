@@ -1,16 +1,16 @@
---- 
+---
 layout: content
 title: Trivia in OHYS
 ---
 
-<center><h1>&#10057; Trivia    &#10057;</h1></center>
+<center><h1>Trivia</h1></center>
     <div class="gc">
 
   {% for page in site.pages %}
     {% if page.path contains '/trivia-pages/' %}
     	<div class="gi">
     		<h3>{{ page.title }}</h3>
-   
+
     		<p>{{ page.description }}</p>
       <a href="{{ site.baseurl }}{{ page.url }}"><div class="btn">View</div></a>
       </div>

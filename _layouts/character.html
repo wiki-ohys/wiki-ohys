@@ -5,10 +5,15 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>{{ page.title }} - Wiki-OHYS</title>
       <link href="{{ "/css/style.css" | relative_url }}" rel="stylesheet" type="text/css">
-      <link rel="stylesheet" href="{{ "/css/char.css" | relative_url }}">
       {% include favicon.html %}
+<style>
+h2 {
+    margin-top: 0;
+}
+</style>
+
    </head>
-   
+
    <body class="character">
     {% include banner.html %}
     <div class="char-grid">
@@ -17,12 +22,7 @@
             {{ content }}
       </div>
     </div>
-    <br><br>
-    <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
-    <script>addBackToTop({
-      diameter: 56,
-      backgroundColor: 'rgb(255, 82, 82)',
-      textColor: '#fff'
-    })</script> 
+    {% include back-to-top.html %}
+    <p style="margin: 50px;"></p>
    </body>
 </html>

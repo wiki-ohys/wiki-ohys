@@ -2,7 +2,7 @@
 layout: content
 title: About the book
 ---
-# About the book
+## About the book
 ---
 ### Introduction
 
@@ -41,7 +41,7 @@ In addition to the use of magical realism, García Márquez also employs other l
 * **Allegory:** This technique uses a story to represent a larger message or idea.
 
 ### Prizes
-The novel received international acclaim, winning literary prizes across the world: 
+The novel received international acclaim, winning literary prizes across the world:
 - Italy's Chianciano Award
 - France's Prix du Meilleur Livre Étranger
 - Venezuela's Rómulo Gallegos Prize
