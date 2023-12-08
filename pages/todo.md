@@ -6,12 +6,13 @@ title: To-do of the Wiki
 
 ---
 
-- [x] Responsive
-- [x] Layout
+- [x] Responsive Pages
+- [x] Structured Layout
 - [x] Blog
 - [x] Author's Page
 - [x] About the Book Page
-- [ ] Trivia
-- [ ] Characters Page
-- [ ] Gallery Page
+- [x] Trivia
+- [x] Characters Page
+- [x] Gallery Page
 - [x] Responsive homepage grid
+- [ ] **Data Entry**

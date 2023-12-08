@@ -5,6 +5,12 @@ title: Site Updates and News
 <center><h2>.:: {{ page.title }} ::.</h2></center>
 
 ***
+<div class="updates-date-heading">December 8, 2023</div>
+
+The work on the gallery page could be considered complete. Now the gallery page
+1. can show all images from a directory without the need of manual labour. 
+2. is responsive and can adjust to different screen sizes.
+
 <div class="updates-date-heading">December 7, 2023</div>
 
 In the starting days of building this website, I often thought about adding a footer to the website and I successfully created a good sticky footer which remain at the bottom of the page even after scrolling. That remained for a long time until I used plain html to build website. However, since I move the website to Jekyll, that fix kind of stopped working. I had to make a new footer but since everything was so new I could not make one as per my wishes. So I abandoned the idea of having a footer altogether and added the relevant information in the [Licence]({% link pages/license.md %}). Though that did not satisfy my because it was clearly not a replacement of footer.

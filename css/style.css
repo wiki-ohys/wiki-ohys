@@ -83,16 +83,16 @@ width: 100%;
 
 }
 
-.links a {
+.links>a {
   display: block;
   padding: 8px 8px;
   text-decoration: none;
   background-color: #FEFAE0;
   color: #5F6F52;
+  border: 1px solid #5F6F52;
 }
 
 .links {
-  border: 1px solid #5F6F52;
   text-align: center;
 }
 

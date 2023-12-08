@@ -1,13 +1,15 @@
 ---
 layout: gallery
 ---
-
 <h1>Gallery</h1>
 
-<!-- <div class="gallery">
+<div class="gallery">
   {% for image in site.static_files %}
     {% if image.path contains '/content/' %}
-      <img src="{{ site.baseurl }}{{ image.path }}" alt="{{ image.name }}">
+      <div class="item"><img src="{{ site.baseurl }}{{ image.path }}" alt="{{ image.name }}">
+        <!-- <p class="image-caption">{{ image.name }}</p> -->
+      </div>
     {% endif %}
   {% endfor %}
-</div> -->
+</div>
+{% include back-to-top.html %}
