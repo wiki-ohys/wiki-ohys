@@ -1,7 +1,10 @@
 ---
 layout: content
-title: From Readers to Contributors – Join the Journey!
+title: Contribute to the site!
 ---
+
+
+
 ## {{ page.title }}
 ***
 

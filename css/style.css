@@ -9,12 +9,35 @@ body {
   margin: 0;
   padding: 0;
 }
-.charbody {
-  width: 90%;
-  max-width: 900px;
-  margin: 2em auto;
+
+/* DEFINING FONTS FOR THE WEBSITE */
+.char-right,
+.char-right>p,
+.char-right>div,
+.char-right>ol>li,
+.char-grid>ul>li {
+  font-family: 'Crimson Text', serif;
 }
 
+.char-right,
+.char-right>p {
+  font-size: 1.2rem;
+}
+
+.news>div,
+.news>p,
+.main>p,
+.news>a>div>span,
+.homepage-footer {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+/* --------------------------------------- */
+.date {
+margin: 0;
+text-decoration: italics;
+}
 /*navbar*/
 .title {
   text-align: center;
@@ -120,11 +143,18 @@ padding: 5px;
 flex: 25%;
 
 }
+
+
+
 .image-rotate{
-  transition: transform 0.5s ease-in-out;
+  /* transition: transform 0.5s ease-in-out; */
+  filter: contrast(200%);
+
 }
 .image-rotate:hover {
-  transform: rotate(360deg);
+  /* transform: rotate(360deg); */
+  filter: contrast(30%);
+  transition: filter 0.2s ease-in-out;
 }
 .column>a {
   font-family: Noto Sans, sans;
@@ -151,6 +181,7 @@ flex: 25%;
   background-color: rgb(242, 163, 200);
   border: 2px solid rgb(255, 41, 41);
   max-width: fit-content;
+  font-size: 0.8rem;
 }
 .summary-box > h4 {
   text-align: center;
@@ -359,8 +390,10 @@ display: block;
 .updates-date-heading {
 background-color: #FFC93C;
 color: #31326F;
-padding: 5px;
+padding: 5px 10px;
 font-weight: bold;
-font-style: italic;
+font-style: oblique;
 margin-top: 20px;
 }
+
+hr {border-top: 0;}
