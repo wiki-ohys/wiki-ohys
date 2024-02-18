@@ -1,25 +1,35 @@
 <div class="news">
-    <div class="align-image">
-       <div class="image-column"><img src="assets/calendericon.png" alt="CalIcon"></div>
-       <div class="text-column">Last Updated: {{ "now" | date: "%Y-%m-%d" }}</div>
-    </div>
-    <hr>
-<p>      <a href="{% link pages/updates.md %}">Site Updates</a> <span><img src="/assets/gifs/new.gif" alt=""></span>
-</p>          <hr>
-<p><mark>You may notice broken links. It will be fixed soon, work is in progress.</mark> <br><a href="{% link pages/helpme.md %}">Report Broken Links</a>
-</p><hr>
-    <p>
-       Made the page more navigatable. Revamped the gallery page for more responsiveness. <a href="{% link pages/updates.md %}">Read more</a>.
-    </p>
-    <hr>
-    <p>
-       Rewritten the whole website in Jekyll, the new thing that I learned recently. The website is a havoc right now but it going to be okay. <a href="{% link _posts/2023-08-13-rebuilding-of-the-site.md %}">Read More</a>
-    </p>
-    <hr>
-    <p>
-       Please note that I am working on this site in my free time and as a hobby project so I might not write much. If you want to help please <a href="{% link pages/helpme.md %}">see this page</a> or <a href="https://twisthead.github.io/contact" target="_blank">contact me</a>.
-    </p>
-    <hr>
-    {% include feed.html %}
+   <div class="align-image">
+      <div class="image-column"><img src="assets/calendericon.png" alt="CalIcon"></div>
+      <div class="text-column">Last Updated: {{ "now" | date: "%Y-%m-%d" }}</div>
+   </div>
+   <hr>
+      <p>Netflix has announced its adaptation of OHYS on <a href="https://www.youtube.com/watch?v=p2_QybaXvJo" target="_blank">YouTube</a>. </p>
+   <hr>
+   <p>You may notice broken links. It will be fixed soon, work is in progress. <a
+         href="{% link pages/helpme.md %}">Report Broken Links</a>
+   </p>
+   <hr>
+   <p>
+      Made the page more navigatable. Revamped the gallery page for more responsiveness. <a
+         href="{% link pages/updates.md %}">Read more</a>.
+   </p>
+   <hr>
+   <p>
+      Rewritten the whole website in Jekyll, the new thing that I learned recently. The website is a havoc right now but
+      it going to be okay. <a href="{% link _posts/2023-08-13-rebuilding-of-the-site.md %}">Read More</a>
+   </p>
+   <hr>
+   <p>
+      Please note that I am working on this site in my free time and as a hobby project so I might not write much. If
+      you want to help please <a href="{% link pages/helpme.md %}">see this page</a> or <a
+         href="https://twisthead.github.io/contact" target="_blank">contact me</a>.
+   </p>
+   <hr>
+<p style="text-align: center;">
+   <a href="{% link pages/updates.md %}" class="btn">Site Updates</a>
 
- </div>
+</p>   <hr>
+   {% include feed.html %}
+
+</div>

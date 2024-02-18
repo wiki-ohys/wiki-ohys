@@ -15,4 +15,6 @@ title: To-do of the Wiki
 - [x] Characters Page
 - [x] Gallery Page
 - [x] Responsive homepage grid
-- [ ] **Data Entry**
+- [ ] **Populate Pages**
+- [ ] Add Search feature
+- [ ] Dark Mode

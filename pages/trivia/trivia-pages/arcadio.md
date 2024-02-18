@@ -1,6 +1,6 @@
 ---
 layout: trivia
-title: Trivia of Arcadio's
+title: Trivia of the Arcadio's
 description: All the fascinating details of Arcadio's of OHYS
 ---
 1. There are total of five Arcadios in the seven generations of the Buendia family.

@@ -1,7 +1,58 @@
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
-<svg height="800px" width="800px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000">
-<g id="SVGRepo_bgCarrier" stroke-width="0"/>
-<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
-<g id="SVGRepo_iconCarrier"> <style type="text/css"> .st0{fill:#5F6F52;} </style> <g> <path class="st0" d="M332.998,291.918c52.2-71.895,45.941-173.338-18.834-238.123c-71.736-71.728-188.468-71.728-260.195,0 c-71.746,71.745-71.746,188.458,0,260.204c64.775,64.775,166.218,71.034,238.104,18.844l14.222,14.203l40.916-40.916 L332.998,291.918z M278.488,278.333c-52.144,52.134-136.699,52.144-188.852,0c-52.152-52.153-52.152-136.717,0-188.861 c52.154-52.144,136.708-52.144,188.852,0C330.64,141.616,330.64,226.18,278.488,278.333z"/> <path class="st0" d="M109.303,119.216c-27.078,34.788-29.324,82.646-6.756,119.614c2.142,3.489,6.709,4.603,10.208,2.46 c3.49-2.142,4.594-6.709,2.462-10.198v0.008c-19.387-31.7-17.45-72.962,5.782-102.771c2.526-3.228,1.946-7.898-1.292-10.405 C116.48,115.399,111.811,115.979,109.303,119.216z"/> <path class="st0" d="M501.499,438.591L363.341,315.178l-47.98,47.98l123.403,138.168c12.548,16.234,35.144,13.848,55.447-6.456 C514.505,474.576,517.743,451.138,501.499,438.591z"/> </g> </g>
+<?xml version="1.0" ?>
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg width="800px" height="800px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Home"/>
+<g id="Print"/>
+<g id="Mail"/>
+<g id="Camera"/>
+<g id="Video"/>
+<g id="Film"/>
+<g id="Message"/>
+<g id="Telephone"/>
+<g id="User"/>
+<g id="File"/>
+<g id="Folder"/>
+<g id="Map"/>
+<g id="Download"/>
+<g id="Upload"/>
+<g id="Video_Recorder"/>
+<g id="Schedule"/>
+<g id="Cart"/>
+<g id="Setting"/>
+<g id="Search">
+<path d="M30.1,25.9l-8.5-8.5c0.9-1.6,1.4-3.5,1.4-5.3c0-6.1-4.9-11-11-11C9,1,6.2,2.2,4.2,4.2C2.2,6.2,1,9,1,12   c0,6.1,4.9,11,11,11c1.9,0,3.7-0.5,5.4-1.4l8.5,8.5c0.6,0.6,1.3,0.9,2.1,0.9c0.8,0,1.5-0.3,2.1-0.9v0c0.6-0.6,0.9-1.3,0.9-2.1   S30.7,26.5,30.1,25.9z" fill="#3F51B5"/>
+<path d="M12,3C9.5,3,7.3,4,5.6,5.6C4,7.3,3,9.5,3,12c0,5,4,9,9,9c1.8,0,3.5-0.5,4.9-1.5c0,0,0,0,0,0   c0.1-0.1,0.3-0.2,0.4-0.3c0.1-0.1,0.2-0.2,0.3-0.3c0.2-0.2,0.5-0.4,0.7-0.6v0c0.4-0.4,0.8-0.9,1.1-1.4c1-1.5,1.5-3.2,1.5-5   C21,7,17,3,12,3z" fill="#FFC10A"/>
+</g>
+<g id="Pencils"/>
+<g id="Group"/>
+<g id="Record"/>
+<g id="Headphone"/>
+<g id="Music_Player"/>
+<g id="Sound_On"/>
+<g id="Sound_Off"/>
+<g id="Lock"/>
+<g id="Lock_open"/>
+<g id="Love"/>
+<g id="Favorite"/>
+<g id="Film_1_"/>
+<g id="Music"/>
+<g id="Puzzle"/>
+<g id="Turn_Off"/>
+<g id="Book"/>
+<g id="Save"/>
+<g id="Reload"/>
+<g id="Trash"/>
+<g id="Tag"/>
+<g id="Link"/>
+<g id="Like"/>
+<g id="Bad"/>
+<g id="Gallery"/>
+<g id="Add"/>
+<g id="Close"/>
+<g id="Forward"/>
+<g id="Back"/>
+<g id="Buy"/>
+<g id="Mac"/>
+<g id="Laptop"/>
 </svg>

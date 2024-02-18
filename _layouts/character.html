@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>{{ page.title }} - Wiki-OHYS</title>
-      <link href="{{ "/css/style.css" | relative_url }}" rel="stylesheet" type="text/css">
-    {% include fonts.html %}
-    {% include favicon.html %}
-<style>
-h2 {
-    margin-top: 0;
-}
-</style>
 
-   </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} - Wiki-OHYS</title>
+    {% include meta.html %}
+  {% include fonts.html %}
+  {% include favicon.html %}
+  <style>
+    h2 {
+      margin-top: 0;
+    }
+  </style>
 
-   <body class="character">
-    {% include banner.html %}
-    <div class="char-grid">
-<div class="char-left">{% include leftnav.html %}</div>
-      <div class="char-right">
-            {{ content }}
-      </div>
+</head>
+
+<body class="character">
+  {% include banner.html %}
+  <div class="char-grid">
+    <div class="char-left">{% include leftnav.html %}</div>
+    <div class="char-right">
+      {{ content }}
     </div>
-    {% include back-to-top.html %}
-    <p style="margin: 50px;"></p>
-   </body>
+  </div>
+  {% include back-to-top.html %}
+  <p style="margin: 50px;"></p>
+</body>
+
 </html>

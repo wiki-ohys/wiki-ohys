@@ -3,15 +3,26 @@ layout: content
 title: Blog Posts
 ---
 <h2 style="text-align: center; margin-top: 0px;">Blogs <img src="/assets/karenpen.gif" alt="" width="60px"></h2>
-<hr>
-<ul style="list-style: none;">
-  {% for post in site.posts %}
-    <li style="padding: 7px 0px;">
-      <p class="date">{{ post.date | date: "%-d %b %Y" }}</p>
-      <a style=" font-weight: bold; font-size: large; text-decoration:none;" href="{{ post.url }}" class="link-heading">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+<p style="text-align: center;">
+<a href="{% link pages/helpme.md %}#submissions">Submissions</a>
+</p><hr>
 
+  <ul style="list-style: none; padding: 0; margin: 0;">
+    {% for post in site.posts %}
+    <div class="blog-links">
+      <li style="padding: 7px 0px;">
+        
+        <a href="{{ post.url }}" class="link-heading">{{ post.title }}</a>
+        <div class="date">{{ post.date | date: "%-d %b %Y" }} 
+          {% if post.author %}
+          &bull;  {{ post.author }}
+          {% else %}
+
+          {% endif %}
+        </div> 
+    </li>
+  </div>
+  {% endfor %}
+  </ul>
 <hr>
 {% include feed.html %}
