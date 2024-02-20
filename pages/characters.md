@@ -1,5 +1,5 @@
 ---
-layout: character
+layout: content
 title: List of Characters
 ---
 ## {{ page.title }}
