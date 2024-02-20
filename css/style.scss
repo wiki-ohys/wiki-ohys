@@ -171,7 +171,7 @@ a {
   padding: 5px;
   flex: 25%;
   transition: background-color 0.3s ease-in-out;
-
+  min-width: fit-content;
   &:hover {
     background-color: $color-accent;
     border-radius: 10px;
@@ -212,14 +212,16 @@ a {
 
 .summary-box {
   border-radius: 4px;
-  background-color: rgb(242, 163, 200);
-  border: 2px solid rgb(255, 41, 41);
+  background-color: $color-accent;
+  border: 1px solid $color-primary;;
   max-width: fit-content;
   font-size: 0.8rem;
-}
-
-.summary-box>h4 {
-  text-align: center;
+  pre {
+    padding: 8px;
+  }
+  h4, h3 {
+    text-align: center;
+  }
 }
 
 .flex-container {

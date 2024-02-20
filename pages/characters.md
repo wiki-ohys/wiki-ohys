@@ -2,8 +2,9 @@
 layout: character
 title: List of Characters
 ---
-<mark>** The list is incomplete and deails may be missing from character pages.</mark>
+## {{ page.title }}
 
+---
 <strong>First Generation</strong>
 
 <ul class="list">
