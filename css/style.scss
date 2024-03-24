@@ -1,5 +1,5 @@
---- 
---- 
+---
+---
 $dummyvariable: red;
 
 $color-primary: #04364A;
@@ -154,7 +154,19 @@ a {
 .links {
   text-align: center;
 }
-
+.social-box {
+            display: flex;
+            gap: 3px;
+            flex-direction: row;
+            justify-content: center;
+        }
+.socials {
+            border: 1px solid black;
+            padding: 5px;
+        }
+.socials::before {
+            content: 'hi';
+        }
 @media screen and (min-width: 768px) {
   .vertical {
     flex-direction: column;
@@ -496,4 +508,15 @@ hr {
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 10px;
+}
+
+.feed {
+  display: flex; 
+  justify-content: center; 
+  font-family: $font-sans;
+  font-size: 16px;
+  & a {
+    color: $color-accent;
+    text-align: center;
+  }
 }

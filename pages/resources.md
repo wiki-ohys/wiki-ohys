@@ -27,4 +27,8 @@ This page will provide additional materials such as research papers, journal art
 1. [Why should you read "One Hundred Years of Solitude"? - Francisco Díez-Buzo](http://www.youtube.com/watch?v=B2zhLYz4pYo) (TED-Ed)
 2. [Gabo: The Creation of Gabriel Garcia Marquez](https://www.imdb.com/title/tt4568106/) (IMDb)
 
+__Social Media__
+
+[Official Reddit](https://www.reddit.com/r/ohys/)
+
 PS: If you want to add more resources please [see this page](helpme.html).
