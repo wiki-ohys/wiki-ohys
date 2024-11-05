@@ -17,6 +17,10 @@ This page will provide additional materials such as research papers, journal art
 
 1. [THE DARK SIDE OF MAGICAL REALISM by Brian Conniff](https://www.jstor.org/stable/26283012) (JSTOR)
 
+**Articles**
+
+1. [Gabriel García Márquez: Writer of Magical Realism](https://www.thoughtco.com/biography-of-gabriel-garcia-marquez-4179046)
+
 **Websites**
 
 1. [Gabriel García Márquez](https://en.wikipedia.org/wiki/Gabriel_Garc%C3%ADa_M%C3%A1rquez) (Wikipedia)

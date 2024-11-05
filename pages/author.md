@@ -43,4 +43,6 @@ Gabriel García Márquez was a nobel prize winner colombian novelist and short-s
 
 ### Read More
 
-1.  [Wikipedia](https://en.wikipedia.org/wiki/Gabriel_Garc%C3%ADa_M%C3%A1rquez)
+1. [Wikipedia](https://en.wikipedia.org/wiki/Gabriel_Garc%C3%ADa_M%C3%A1rquez)
+2. [Gabriel García Márquez: Writer of Magical Realism](https://www.thoughtco.com/biography-of-gabriel-garcia-marquez-4179046)
+
