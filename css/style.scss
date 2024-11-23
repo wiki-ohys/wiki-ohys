@@ -414,7 +414,9 @@ a {
   display: grid;
   grid-template-areas:
     "left main right"
+    ". footer-links ."
     ". homepage-footer ."
+    
   ;
   grid-template-columns: 1fr 3fr 1fr;
 
@@ -435,29 +437,49 @@ a {
   min-width: fit-content;
 }
 
+.footer-links {
+  grid-area: footer-links;
+  border: 1px solid black;
+  padding: 1px;
+  display: flex;
+  justify-content:stretch;
+  gap: 1px;
+}
+
+.footer-link-left, .footer-link-right {
+  border: 1px solid black;
+  width: 50%;
+  padding: 5px;
+}
+
+
 .homepage-footer {
   grid-area: homepage-footer;
   text-align: center;
 }
 
+// MEDIA QUERIES FOR TABLETS
 @media screen and (max-width: 1000px) {
   .homepage-grid {
     grid-template-areas:
       "left main"
       ". right"
-      ". homepage-footer"
+      "footer-links footer-links"
+      "homepage-footer homepage-footer"
     ;
     grid-template-columns: 2fr 3fr;
     gap: 30px 20px;
   }
 }
 
+// MEDIA QUERIES FOR MOBILE PHONES 
 @media screen and (max-width: 768px) {
   .homepage-grid {
     grid-template-areas:
       "left"
       "main"
       "right"
+      "footer-links"
       "homepage-footer"
     ;
     grid-template-columns: 1fr;

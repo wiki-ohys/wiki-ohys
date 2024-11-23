@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
     <title>{{ site.title }}</title>
     {% include favicon.html %}
     {% include fonts.html %}
@@ -14,28 +14,59 @@
         }
     </style>
 
-</head>
+  </head>
 
-<body>
+  <body>
 
-{% include banner.html %}
-<div class="homepage-grid">
-  <div class="left">
-    {% include leftnav.html %}
-  </div>
-  <div class="main">
-    <img src="../content/cover.jpeg" alt="Book Cover" class="homepage-cover-image">
-    <p>Cover Page of the first English edition of the book</p>
-  </div>
-<div class="right">
-    {% include news.html %}
-</div>
-<div class="homepage-footer">
-  <hr width="70%">
-  Created by <a target="_blank" href="https://twisthead.github.io/" style="text-decoration: none;">Najm Us Saqib</a> | <a href="{% link pages/license.md %}" style="text-decoration: none;">License Info</a>
-</div>
-</div>
+    {% include banner.html %}
+    <div class="homepage-grid">
+      <div class="left">
+        {% include leftnav.html %}
+      </div>
+      <div class="main">
+        <img src="../content/cover.jpeg" alt="Book Cover"
+          class="homepage-cover-image">
+        <p>Cover Page of the first English edition of the book</p>
+      </div>
+      <div class="right">
+        {% include news.html %}
+      </div>
+
+      <!-- footer box -->
+      <div class="footer-links">
+        <div class="footer-link-left">
+            {% for page in site.pages %}
+            {% if page.path contains '/content' %}
+            <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title
+                }}</a> &bull;
+            {% endif %}
+            {% endfor %}
+        </div>
+        <div class="footer-link-right">
+          <em>Latest Blogs</em>
+          <ul>
+            {% for post in site.posts limit:3 %}
+           
+              <li>
+
+                <a href="{{ post.url }}" >{{ post.title
+                  }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+          <a href="{% link pages/blogs.html %}">All Blogs &RightArrow;</a>
+        </div>
+      </div>
+
+      <div class="homepage-footer">
+        <hr width="70%">
+        Created by <a target="_blank" href="https://twisthead.github.io/"
+          style="text-decoration: none;">Najm Us Saqib</a> | <a
+          href="{% link pages/license.md %}"
+          style="text-decoration: none;">License Info</a>
+      </div>
+    </div>
     {% include footer.html %}
-</body>
+  </body>
 
 </html>
