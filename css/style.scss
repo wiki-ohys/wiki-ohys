@@ -5,9 +5,14 @@ $dummyvariable: red;
 $color-primary: #04364A;
 $color-accent: #DAFFFB;
 $color-primary-lighter: lighten($color-primary, 10%);
+$link-highlight: maroon;
 $font-heading: "Roboto Slab", sans-serif;
 $font-serif: 'Crimson Text', serif;
 $font-sans: "Inter", sans-serif;
+
+*{
+  box-sizing: border-box;
+}
 
 html {
   position: relative;
@@ -19,6 +24,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  
 }
 
 /* DEFINING FONTS FOR THE WEBSITE */
@@ -56,8 +62,11 @@ h2 {
 // COLORS FOR ELEMENTS
 a {
   color: $color-primary;
-}
 
+  &:hover {
+    color: $link-highlight;
+  }
+}
 /*navbar*/
 .title {
   text-align: center;
@@ -484,6 +493,13 @@ a {
     ;
     grid-template-columns: 1fr;
     gap: 30px 20px;
+  }
+  .footer-links {
+    flex-direction: column;
+    width: 100%;
+  }
+  .footer-link-left, .footer-link-right {
+    width: 100%;
   }
 }
 
