@@ -18,3 +18,4 @@ title: To-do of the Wiki
 - [ ] **Populate Pages**
 - [ ] Add Search feature
 - [ ] Dark Mode
+- [ ] Improve Theme
