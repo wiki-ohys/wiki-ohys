@@ -4,7 +4,7 @@ title: Site Updates and News
 ---
 <center><h2>{{ page.title }}</h2></center>
 
-***
+
 {% for update in site.data.updates %}
 <div class="updates-date-heading">{{ update.date }}</div>
 {{ update.info | markdownify | remove: "<p>" | remove: "</p>" }}

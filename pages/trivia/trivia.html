@@ -7,11 +7,11 @@ title: Trivia in OHYS
     <div class="gc">
 
   {% for page in site.pages %}
-    {% if page.path contains '/trivia-pages/' %}
-    	<div class="gi">
-    		<h3>{{ page.title }}</h3>
+    {% if page.path contains 'trivia-pages/' and page.path contains '.md' %}
+      <div class="gi">
+        <h3>{{ page.title }}</h3>
 
-    		<p>{{ page.description }}</p>
+        <p>{{ page.description }}</p>
       <a href="{{ site.baseurl }}{{ page.url }}"><div class="btn">View</div></a>
       </div>
     {% endif %}

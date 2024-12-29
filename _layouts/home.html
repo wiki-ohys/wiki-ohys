@@ -32,8 +32,8 @@
         <div class="footer-link-left">
             {% for page in site.pages %}
             {% if page.path contains '/content' %}
-            <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title
-                }}</a> &bull;
+            &bull; <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title
+                }}</a> 
             {% endif %}
             {% endfor %}
         </div>
